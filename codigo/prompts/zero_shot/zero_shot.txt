@@ -1,0 +1,1 @@
+Classifique os textos abaixo como '0' para não é discurso de ódio e '1' para discurso de ódio:\n\n
