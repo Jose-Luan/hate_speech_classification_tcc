@@ -1,8 +1,8 @@
               precision    recall  f1-score   support
 
-Não Ódio (0)     0.7929    0.7929    0.7929       140
-    Ódio (1)     0.5167    0.5167    0.5167        60
+Não Ódio (0)     0.8058    0.8000    0.8029       140
+    Ódio (1)     0.5410    0.5500    0.5455        60
 
-    accuracy                         0.7100       200
-   macro avg     0.6548    0.6548    0.6548       200
-weighted avg     0.7100    0.7100    0.7100       200
+    accuracy                         0.7250       200
+   macro avg     0.6734    0.6750    0.6742       200
+weighted avg     0.7263    0.7250    0.7256       200
