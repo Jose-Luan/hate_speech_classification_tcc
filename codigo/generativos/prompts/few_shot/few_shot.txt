@@ -1,0 +1,9 @@
+Classifique os textos abaixo como '0' para não é discurso de ódio e '1' para discurso de ódio.
+
+Exemplos:
+1. "Melhor oportunidade da minha vida!" → 0
+2. "Essa mulher é doente.pilantra!" → 1
+3. "Hoje o dia está lindo, vamos aproveitar!" → 0
+4. "Vagabunda. Comunista. Mentirosa. O povo chileno nao merece uma desgraça desta." → 1
+
+Agora classifique os seguintes textos:\n\n
