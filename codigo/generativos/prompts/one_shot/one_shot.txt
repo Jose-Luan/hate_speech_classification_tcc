@@ -2,6 +2,6 @@ Classifique os textos abaixo como '0' para não é discurso de ódio e '1' para 
 
 Exemplos:  
 1. "Tenho muito orgulho dessa colégio, meus filhos estudam no CMB... Meu coração é só gratidão 🇧🇷" → 0  
-2. "Só um doente para achar que isso é motivo para comemorar....não cansa de passar vergonha acho que as aulas pelo you tube não estão funcionando." → 1  
+2. "enbuste satanas nao morreu quer matar trabalhador , inseto repuginante" → 1  
 
 Agora classifique os seguintes textos:
