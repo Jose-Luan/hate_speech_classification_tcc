@@ -1,4 +1,4 @@
-text,label,pred_zero_shot,pred_zero_shot_raw,pred_one_shot,pred_one_shot_raw,pred_few_shot,pred_few_shot_raw
+text,label,pred_zero_shot,pred_zero_shot_raw,pred_few_shot,pred_few_shot_raw,pred_one_shot,pred_one_shot_raw
 Sobre Filme #Disney beijo gay.,0,0,0,0,0,0,0
 Acho vou pegar carona mimir,0,0,0,0,0,0,0
 RT : #Abril. Seminário sobre Ideologia Gênero.(Com certificado) 08 09 Abril. #Ariquemes/RO.,0,0,0,0,0,0,0
@@ -6,18 +6,18 @@ wtf tt sobre boatos fufas conhecidas Porto seguir-me Q MERDA ESS,1,0,0,1,1,0,0
 "Mulheres Rio, vamos aproximar meninas ciência? <3 Inscrições online:",0,0,0,0,0,0,0
 Mulher = carne churrasco. Vc esquenta pau,1,1,1,1,1,1,1
 "Ia dar boa noite, mas, vc ja então, boa sexta! hahaha",0,0,0,0,0,0,0
-"RT : defender Jean Wyllys, FHC MENTE esquece MANDOU cassar Bolsonaro chamar ministro ladrão _",0,0,0,1,1,0,0
+"RT : defender Jean Wyllys, FHC MENTE esquece MANDOU cassar Bolsonaro chamar ministro ladrão _",0,0,0,0,0,0,0
 "político corrupto? Pare falar merda!! Tá vendo Lula, Dilma FHC Aécio perfil?",1,0,0,1,1,0,0
 PM entrar metendo cacete nessas escolas ocupadas bando vagabundo nao quer estudar fica morando porra escola,1,1,1,1,1,1,1
-RT : homem feminista igual branco alma negra. NAO EXISTE !,1,1,1,1,1,0,0
+RT : homem feminista igual branco alma negra. NAO EXISTE !,1,1,1,1,1,1,1
 "'Glorificar sexo'?? família resume sexo?? tão trivial, faça sexo c mulher meio rua então! #idiota",1,0,0,1,1,0,0
 "maravilhosa, corpao, fico mal vejo chamando gorda/feia tl pq nossa, queria gorda/feia q vc",0,0,0,0,0,0,0
 "Atenção, pessoal Macapá! Vai rolar grupo estudos base livro MeuAmigoSecreto: Feminismo além das...",0,0,0,0,0,0,0
 Pra esquerda (vagabundo) assim: 'pegar' 40 mil reais trabalhador ralou pra comprar fazer n _,1,0,0,0,0,0,0
 Ideologia gênero forma mem informa. Ideologia gênero DEFORMA mentes infantis.,1,1,1,1,1,1,1
-RT : pensa alguém cu mão,0,1,1,1,1,0,0
-filha bruxa 71 (deputada 'mas isso') drogada moral decidir deve ensinado filho?,0,0,0,0,0,0,0
-coisa sentido envolvimento Rússia tentativa encobrir erros campanha perdedora d _,0,1,1,1,1,0,0
+RT : pensa alguém cu mão,0,1,1,0,0,1,1
+filha bruxa 71 (deputada 'mas isso') drogada moral decidir deve ensinado filho?,0,0,0,1,1,0,0
+coisa sentido envolvimento Rússia tentativa encobrir erros campanha perdedora d _,0,1,1,0,0,1,1
 Menina veste menina. #NaoAIdeologiaDeGenero,0,0,0,0,0,0,0
 sério sei pior vida vey pobre pobre gorda feia??!!,1,1,1,1,1,1,1
 "#MamãeEuQuero, #MamãeEuQuero, #MamãeEuQuero esquerdar, chora banho, chora banho, chora banho pra vergonha passar...",0,0,0,0,0,0,0
@@ -47,7 +47,7 @@ Barça viu PSG branco pensou Real... aí deu deu né kkkkkk,0,0,0,0,0,0,0
 RT : Grande espetáculo ontem . antes fã agora ainda mais. Vale pena ir ver s _,0,0,0,0,0,0,0
 bota bizarro nisso!,0,0,0,0,0,0,0
 moro prendeu cunha? ué lula? dilma? PT?,0,0,0,0,0,0,0
-sabe acaba tráfico? parando fumar maconha vagabundo imundo,1,0,0,0,0,1,1
+sabe acaba tráfico? parando fumar maconha vagabundo imundo,1,0,0,0,0,0,0
 "6a feira dia 'Overdose Tourette'. hoje caravana pára ERICEIRA. Auditório Jaime Lobo Silva, 22h. Is _",0,0,0,0,0,0,0
 campanha continua...#EducacaoSemIdeologiaDeGenero. .Acesse adquira dois livros de...,0,0,0,0,0,0,0
 "coitado né gente, ninguém liga pra americanos classe média alta precisam atenção!!!!!!",0,0,0,0,0,0,0
@@ -59,7 +59,7 @@ lula nunca acertou nota azul guitar hero,1,1,1,1,1,1,1
 Lugares comuns Sistema #PNR #RenovarPortugal,0,0,0,0,0,0,0
 Quanto amor deus 09/03/17 10:12:01: Sapatao : Fala amor vida. coração corpo,0,0,0,0,0,0,0
 cena 'Angola nossa' ainda acabou?,0,0,0,0,0,0,0
-gorda feia bêbado,1,0,0,1,1,1,1
+gorda feia bêbado,1,1,1,1,1,1,1
 Feliz dia MULHERES ! SENHOR proteja Islão Brasil !,1,0,0,0,0,0,0
 #i5gornascimento g1 União Europeia ameaça sanções países recebem refugiados,0,0,0,0,0,0,0
 "europeus vão acordando reagindo. Europa Nações, Nacionalismo, contra mundialismo opressor!",0,1,1,1,1,1,1
@@ -117,7 +117,7 @@ juventude fazendo tal liberdade? Confundindo libertinagem. Quanto faz...,0,0,0,0
 Convidado Manhã Renascença Portugal distingue-se “porque vai ter campos refugiados,0,0,0,0,0,0,0
 "oito anos Rússia 'ignorou' presidente Obama, tornou forte, anexou Crimeia construiu míss _",0,0,0,0,0,0,0
 Homem verdade dia pra comemorar! Todo dia dia.,0,0,0,0,0,0,0
-viemos macacos pq ainda existem macacos??? ciência nao explica,1,0,0,1,1,0,0
+viemos macacos pq ainda existem macacos??? ciência nao explica,1,0,0,0,0,1,1
 "tb, Aclimação #bemnofocodacomidajaponesa #adoro",0,0,0,0,0,0,0
 Tb soninho.. eis trabalho amanhã. hj feriado sampa tb trabalho rs affff rs,0,0,0,0,0,0,0
 Pergunta : Porque beat publicidade samba algo vindo Angola?,0,0,0,0,0,0,0
@@ -153,14 +153,14 @@ Pra gosta futebol. Foda-se!!!! mané alma.,1,0,0,0,0,0,0
 Gostaria dizer enquanto sentindo gorda feia n quero ver cara ninguem,1,0,0,0,0,0,0
 RT : União Europeia quer multar países abrigarem refugiados. Entendem agora porque tudo vai ruir?#Europaxit,1,0,0,0,0,0,0
 - pq vc quer impeachment? - PT - dilma sair entra temer cunha vice - FODA-SE PT,1,0,0,0,0,0,0
-liberou burca ?? absurdo !!,1,0,0,0,0,1,1
-então achar gorda feia falta autoestima? Ataaaa,1,1,1,1,1,0,0
+liberou burca ?? absurdo !!,1,0,0,1,1,0,0
+então achar gorda feia falta autoestima? Ataaaa,1,0,0,0,0,0,0
 Vou pintar quarto preto branco,0,0,0,0,0,0,0
 Deus ta vendo vcs acordando cedo pra torcer pra casal sapatão burras #vipdirecto,1,0,0,1,1,1,1
 "Democracia cacete, aqui Suprema Corte Britânica, mano! - Brexit",0,1,1,0,0,0,0
 "Indo Charleston, Carolina Sul pra passar tempo Boeing falar sobre empregos! Ansioso.",0,0,0,0,0,0,0
 'Bate outro mesmo',0,0,0,0,0,0,0
-afronta portugueses pára! #PNR #Portugal #Imigração,0,0,0,1,1,0,0
+afronta portugueses pára! #PNR #Portugal #Imigração,0,0,0,0,0,1,1
 CARA,0,0,0,0,0,0,0
 "Gente, tá ABSURDAAAA briga Jô Soares X huahahhuahau",0,0,0,0,0,0,0
 Ê lá casa,0,0,0,0,0,0,0
@@ -169,13 +169,13 @@ sexta feira,0,0,0,0,0,0,0
 "bom saber, dia mulher?",0,0,0,0,0,0,0
 "queria lembrar chamar coleguinha puta, feia, gorda, escrota etc tbm machismo",1,1,1,1,1,1,1
 . acho tô alzheimer porque n lembro ter pedido opinião,0,0,0,0,0,0,0
-"TÁ CERTA MARIA CORSÁRIO, PROCESSAR CACHORRO SAFADO ROUBOU CIGARRINHO INOCENTE FILHA. _",1,0,0,0,0,1,1
+"TÁ CERTA MARIA CORSÁRIO, PROCESSAR CACHORRO SAFADO ROUBOU CIGARRINHO INOCENTE FILHA. _",1,0,0,1,1,0,0
 RT : Antes homossexualismo proibido.Depois passou tolerado.Hoje normal.Eu vou embora antes vire obrigatór ...,1,1,1,1,1,1,1
 RT : sei neste momento Neymar creditando toda honra,0,0,0,0,0,0,0
 "Fufas decentes hj dia, mulheres",0,0,0,0,0,0,0
 "Marxismo cultural baixo, malicioso, sujo descarado há. Deus abençoe todos. VERDADE.",0,0,0,0,0,0,0
 "Ex-candidato PSOL preso estuprar cães portar drogas. piores PT, aberrações. (Vídeo) _",1,1,1,1,1,1,1
-"pode vegetariano, gente sempre topo cadeia alimentar !",0,1,1,0,0,1,1
+"pode vegetariano, gente sempre topo cadeia alimentar !",0,1,1,1,1,0,0
 cerco fechando pro Obama #ObamaInJail,0,0,0,0,0,0,0
 "votarem nelas mesmas, talvez ajude",0,0,0,0,0,0,0
 "Miga, dá fuçada lá, primeiro livro amiga (eu reviso)",0,0,0,0,0,0,0
@@ -183,7 +183,7 @@ cerco fechando pro Obama #ObamaInJail,0,0,0,0,0,0,0
 "países solidários pobres, abertos refugiados. Europa fecha. Velho Mundo mesmo...",0,0,0,0,0,0,0
 lava cueca q acabou comprar antes usar,0,0,0,0,0,0,0
 Internet 2017: negro chamar ironicamente namorada 'preta' virou motivo movimento negro pautar _,0,0,0,1,1,0,0
-Amigo Israel: PROIBIÇÃO MUNDIAL críticas Islão Facebook...,0,1,1,1,1,0,0
+Amigo Israel: PROIBIÇÃO MUNDIAL críticas Islão Facebook...,0,1,1,1,1,1,1
 "DIGITAR PALMEIRAS GOOGLE, GOOGLE CAIU.",0,0,0,0,0,0,0
 "gorda feia,falsa,comemorando Emilly ta paredão,ridícula",1,1,1,1,1,1,1
 RT : Pronto! escolhido candidato.. Imagem presidente partido.. Lol,0,0,0,0,0,0,0
@@ -192,10 +192,10 @@ RT : patrão pede pra fazer hora extra mulherada inventa tá ate família doente
 RT : Feliz Dia Mundial Rádio!,0,0,0,0,0,0,0
 "Feliz dia da: Gorda, feia, magrela, bruxa, velha, frágil, empregada...",1,1,1,1,1,1,1
 escrevi sobre realidade.,0,0,0,0,0,0,0
-RT : católicos idiotas úteis George Soros -,0,0,0,1,1,1,1
-"vc concorda ela, vc reproduz racismo. to aqui pra silenciar negro, cê acha quiser.",0,1,1,1,1,0,0
-problema dizer mulher mulher homem homem...porque tanta histeria ? pessoal agenda gay so pod _,1,0,0,1,1,0,0
+RT : católicos idiotas úteis George Soros -,0,1,1,1,1,1,1
+"vc concorda ela, vc reproduz racismo. to aqui pra silenciar negro, cê acha quiser.",0,0,0,1,1,1,1
+problema dizer mulher mulher homem homem...porque tanta histeria ? pessoal agenda gay so pod _,1,1,1,1,1,1,1
 Lá vem gorda fazer chantagem emocional.,1,1,1,1,1,1,1
-isso! Falta punição pra estuprador assassinos!,0,1,1,0,0,0,0
+isso! Falta punição pra estuprador assassinos!,0,0,0,0,0,0,0
 hoje acordei 1 vontade fazer uns dreadlock ta moda ;),0,0,0,0,0,0,0
 preciso travar islamização Europa...,1,1,1,1,1,1,1
