@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report
@@ -28,7 +27,7 @@ def save_metrics_and_plots(results, y_true, y_pred, output_dir, model_name):
         xticklabels=["Não Ódio (0)", "Ódio (1)"],
         yticklabels=["Não Ódio (0)", "Ódio (1)"]
     )
-    plt.xlabel("Predito")
+    plt.xlabel("Predção")
     plt.ylabel("Real")
     plt.title(f"Matriz de Confusão - {model_name}")
     plt.tight_layout()
@@ -85,15 +84,17 @@ def parse_saida(saida, expected_len):
     else:
         return matches + [None] * (expected_len - len(matches))
 
-def processar_lotes(df, model, prompt_template, prompt_name, batch_size=20, sleep_time=2):
+def processar_lotes(df_final, model, prompt_template, prompt_name, batch_size=20, sleep_time=2):
     """
     Processa lotes de textos para classificação e atualiza o DataFrame com os resultados.
     """
-    df_final = df.copy()
+    df_final = df_final
     df_final[prompt_name] = None
     df_final[f'{prompt_name}_raw'] = None
+    
+    print(f"classificação com: {prompt_name}")
 
-    for i in range(0, len(df), batch_size):
+    for i in range(0, len(df_final), batch_size):
         try:
             lote = df_final.iloc[i:i+batch_size]["text"].tolist()
             saida, raw_saida = classificar_texto(model, lote, prompt_template)
@@ -103,7 +104,7 @@ def processar_lotes(df, model, prompt_template, prompt_name, batch_size=20, slee
 
             for j, res in enumerate(resultados):
                 idx = i + j
-                if idx < len(df):
+                if idx < len(df_final):
                     if res in ["0", "1"]:
                         df_final.at[idx, prompt_name] = int(res)
                     else:
@@ -120,19 +121,24 @@ def processar_lotes(df, model, prompt_template, prompt_name, batch_size=20, slee
 
     return df_final
 
-def plot_confusion(y_true, y_pred, titulo, path):
-    """
-    Plota a matriz de confusão e salva o relatório de classificação.
-    """
-    cm = confusion_matrix(y_true, y_pred, labels=[0, 1])
-    plt.figure(figsize=(5, 4))
-    sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
+def plot_confusion(y_true, y_pred, titulo, path, output_dir):
+    cm = confusion_matrix(y_true, y_pred, labels=[0,1])
+    plt.figure(figsize=(5,4))
+    sns.heatmap(
+                cm, 
+                annot=True, 
+                fmt="d", 
+                cmap="Blues",
                 xticklabels=["Não ódio (0)", "Ódio (1)"],
-                yticklabels=["Não ódio (0)", "Ódio (1)"])
+                yticklabels=["Não ódio (0)", "Ódio (1)"]
+    )
     plt.xlabel("Predição")
     plt.ylabel("Real")
     plt.title(titulo)
+    plt.tight_layout()
+    plt.savefig(f"{output_dir}/confusion_matrix.png")
     plt.show()
+    plt.close()
 
     report = classification_report(y_true, y_pred, target_names=["Não ódio (0)", "Ódio (1)"])
     with open(path, 'w', encoding='utf-8') as f:
