@@ -1,0 +1,23 @@
+Classifique os textos abaixo com base na seguinte definição de discurso de ódio:
+
+Considera-se discurso de ódio toda forma de ataque verbal, incitação ao ódio, insulto ou desumanização direcionada a indivíduos ou grupos em função de características como raça, gênero, religião, nacionalidade, etnia ou orientação sexual. Expressões que buscam inferiorizar, ameaçar, humilhar ou promover hostilidade contra esses grupos devem ser classificadas como discurso de ódio.
+
+Atribua:
+
+'0' → não é discurso de ódio
+
+'1' → é discurso de ódio
+
+Exemplos:
+
+1. "Melhor oportunidade da minha vida!" → 0
+
+2. "Essa mulher é doente. pilantra!" → 1
+
+3. "Hoje o dia está lindo, vamos aproveitar!" → 0
+
+4. "Vagabunda. Comunista. Mentirosa. O povo chileno não merece uma desgraça desta." → 1
+
+Agora classifique os seguintes textos:
+
+\n\n
