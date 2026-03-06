@@ -1,0 +1,2 @@
+eval_loss,eval_accuracy,eval_precision_macro,eval_recall_macro,eval_f1_macro,eval_f1_weighted,eval_runtime,eval_samples_per_second,eval_steps_per_second,epoch
+41.099999999999994,90.0,88.7,87.1,87.9,89.9,623.2,3209.2,208.6,500.0

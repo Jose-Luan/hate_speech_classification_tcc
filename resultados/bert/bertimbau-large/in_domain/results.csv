@@ -1,0 +1,2 @@
+eval_accuracy,eval_f1_macro,eval_recall_macro,eval_precision_macro
+90.0,87.9,87.1,88.7
